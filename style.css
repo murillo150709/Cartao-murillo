@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartao {
+  width: 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+#foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+li {
+  margin: 8px 0;
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+body.escuro {
+  background-color: #222;
+}
+
+body.escuro .cartao {
+  background-color: #333;
+  color: white;
+}
+
+body.escuro p {
+  color: #ddd;
+}
+
+body.escuro a {
+  color: #66b3ff;
+}
